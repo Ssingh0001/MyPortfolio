@@ -1,3 +1,28 @@
+*
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #7b3fe4;
+  text-decoration: none;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-links p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: underline;
+}
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +51,7 @@ nav {
 nav .logo {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #7b3fe4;
+  color: #000000;
 }
 
 nav ul {
@@ -74,14 +99,14 @@ nav ul li a {
 }
 
 .hero-image img {
-  width: 300px;
+  width: 700px;
   border-radius: 10px;
 }
 
 .about h2, .projects h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #7b3fe4;
+  color: #000000;
 }
 
 .about p, .projects ul {
