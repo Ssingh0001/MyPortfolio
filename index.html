@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satinder Singh | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <div class="logo">SATINDER SINGH</div>
+    <ul>
+      <li><a onclick="showSection('home')">Home</a></li>
+      <li><a onclick="showSection('about')">About</a></li>
+      <li><a onclick="showSection('projects')">Projects</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Hello, I am Satinder Singh</h1>
+      <p>Software Engineering Student at GISMA | Future Big Tech Engineer</p>
+      <div class="social-icons">
+        <a href="https://github.com/satindersingh" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/satindersingh" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:satindersingh0902@gmail.com" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="image.png" alt="Satinder at computer">
+    </div>
+  </section>
+
+  <section class="about hidden" id="about">
+    <h2>About Me</h2>
+    <p>I am Satinder Singh, a Software Engineering student at GISMA University of Applied Sciences in Berlin. I have a strong passion for building efficient, modern applications and aim to work at top tech companies like Google, Amazon, or SAP. My technical skill set includes HTML, CSS, Python, and LaTeX. I’m currently learning full-stack development.</p>
+  </section>
+
+  <section class="projects hidden" id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Project 1 – Portfolio Website (HTML & CSS)</li>
+      <li>Project 2 – Basic Python Calculator</li>
+    </ul>
+  </section>
+
+  <script>
+    function showSection(sectionId) {
+      document.querySelector('.hero').style.display = sectionId === 'home' ? 'flex' : 'none';
+      document.querySelector('.about').classList.toggle('hidden', sectionId !== 'about');
+      document.querySelector('.projects').classList.toggle('hidden', sectionId !== 'projects');
+    }
+  </script>
+</body>
+</html>

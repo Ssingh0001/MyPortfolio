@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #7b3fe4;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hero, .about, .projects {
+  padding: 3rem 2rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.about h2, .projects h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #7b3fe4;
+}
+
+.about p, .projects ul {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.projects ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
