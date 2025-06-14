@@ -165,14 +165,21 @@ nav ul li a {
   display: inline-block;
   margin-top: 1.5rem;
   padding: 0.8rem 1.8rem;
-  background-color: #000;        
-  font-weight: 600;
+  background-color: #000;
+  color: #fff !important;
+  font-weight: 700;
   font-size: 1rem;
   border-radius: 8px;
-  transition: background-color 0.3s ease;
   text-align: center;
+  text-decoration: none !important;
+  transition: background-color 0.3s ease;
 }
 
-.download-btn:hover {
-  background-color: #222;        
+.download-btn:visited,
+.download-btn:hover,
+.download-btn:active,
+.download-btn:focus {
+  background-color: #292929;
+  color: #fff !important;
+  text-decoration: none !important;
 }
