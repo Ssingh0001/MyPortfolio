@@ -4,7 +4,7 @@ This is my personal developer portfolio website showcasing my background, skills
 
 ## 🌐 Live Website
 
-🔗 [satinderportfolio.com](https://satinderportfolio.com)
+🔗 [GitHub Pages Mirror](https://ssingh0001.github.io/portfolio)
 
 ## 📂 Project Structure
 
