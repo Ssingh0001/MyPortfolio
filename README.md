@@ -13,6 +13,7 @@ portfolio/
 ├── index.html # Main HTML file
 ├── style.css # Styling (external CSS)
 ├── image.png # Profile image
+├── Satinder_CV.pdf # CV
 └── README.md # Project documentation
 
 ## 💡 Features
@@ -20,4 +21,5 @@ portfolio/
 - Clean, responsive layout for mobile, tablet, and desktop
 - Navigation between Home, About, and Projects sections
 - Social media links: GitHub, LinkedIn, Email
+- download button to download CV
 - Easy to maintain and extend with more projects
