@@ -1,28 +1,39 @@
 *
-.social-icons {
-  margin-top: 1rem;
-}
-
-.social-icons a {
-  font-size: 1.5rem;
-  margin-right: 1rem;
-  color: #7b3fe4;
-  text-decoration: none;
-}
-
-.social-links {
-  margin-top: 1rem;
-}
-
 .social-links p {
-  margin: 0.2rem 0;
-  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 0.7rem 0;
+}
+
+.social-links i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+/* Brand icon colors */
+.github-icon {
+  color: #fff;
+  background-color: #000;
+}
+
+.linkedin-icon {
+  color: #fff;
+  background-color: #0077b5;
+}
+
+.email-icon {
+  color: #fff;
+  background-color: #D44638;
 }
 
 .social-links a {
   color: #333;
   text-decoration: underline;
 }
+
 * {
   margin: 0;
   padding: 0;
