@@ -1,103 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Satinder Singh | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 </head>
-
 <body>
 
+  <!-- Navigation -->
   <nav>
-    <div class="logo">SATINDER SINGH</div>
+    <div class="logo">SATINDER</div>
     <ul>
-      <li><a onclick="showSection('home')">Home</a></li>
-      <li><a onclick="showSection('about')">About</a></li>
-      <li><a onclick="showSection('projects')">Projects</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
     </ul>
   </nav>
 
   <!-- Hero Section -->
   <section class="hero" id="home">
-    <div class="hero-text">
-      <h1>Hello, I am <span>Satinder Singh</span></h1>
-      <p>Software Engineering Student at GISMA | Future Big Tech Engineer</p>
+    <div class="hero-left">
+      <p class="welcome">WELCOME TO MY WORLD ✨</p>
+      <h1>Hi, I'm <span>Satinder Singh</span></h1>
+      <h2>Aspiring Software Engineer</h2>
+      <p class="tagline">
+        Passionate about building modern, efficient apps. Currently studying Software Engineering at GISMA University.
+      </p>
 
-      <!-- Contact / Social Links -->
-      <div class="social-links">
-        <p><i class="fab fa-github github-icon"></i> <a href="https://github.com/Ssingh0001"
-            target="_blank">github.com/Ssingh0001</a></p>
-        <p><i class="fab fa-linkedin-in linkedin-icon"></i> <a href="https://linkedin.com/in/satinder-singh09"
-            target="_blank">linkedin.com/in/satinder-singh09</a></p>
-        <p><i class="fas fa-envelope email-icon"></i> <a
-            href="mailto:satindersingh0902@gmail.com">satindersingh0902@gmail.com</a></p>
+      <div class="buttons">
+        <a href="#projects" class="btn primary">My Projects</a>
+        <a href="Satinder_CV.pdf" download class="btn secondary">Download CV</a>
+      </div>
 
-        <!-- Download CV -->
-        <a href="Satinder_CV.pdf" download class="download-btn">
-          <i class="fas fa-download"></i> Download CV
-        </a>
+      <div class="social-icons">
+        <a href="https://github.com/Ssingh0001" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/satinder-singh09" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:satindersingh0902@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
     </div>
 
-    <div class="hero-image">
-      <img src="c:\Users\satin\OneDrive\Pictures\IMG_20250627_140238.png" alt="Satinder at computer">
+    <div class="hero-right">
+      <img src="c:\Users\satin\OneDrive\Pictures\IMG_20250627_140238.png" alt="Satinder Photo" />
     </div>
   </section>
 
   <!-- About Section -->
-  <section class="about hidden" id="about">
+  <section class="about" id="about">
     <h2>About Me</h2>
-    <p>I am Satinder Singh, a Software Engineering student at GISMA University of Applied Sciences in Berlin. </p>
-    <br>
-    <p>I have a strong passion for building efficient, modern applications and aim to work at top tech companies like
-      Google, Amazon, or SAP.</p>
-    <br>
-    <p>My technical skill set includes:</p>
-    <ul class="skills-list">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Python</li>
-      <li>LaTeX</li>
-      <li>Currently learning full-stack development</li>
+    <p>
+      I am Satinder Singh, a Software Engineering student at GISMA University of Applied Sciences in Berlin.
+      <br>
+      I’m passionate about building efficient, scalable applications and exploring modern web technologies.
+      I aim to work in top tech companies like Google, Amazon, or SAP.
+      <br>
+      My techical skills include :
+    </p>
 
+    <ul class="skills-list">
+      <li>✔️ HTML, CSS</li>
+      <li>✔️ Python</li>
+      <li>✔️ LaTeX</li>
+      <li>✔️ Full-stack development (in progress)</li>
+      <li>✔️ Java & C++ basics</li>
     </ul>
   </section>
 
   <!-- Projects Section -->
-  <section class="projects hidden" id="projects">
+  <section class="projects" id="projects">
     <h2>Projects</h2>
     <ul>
       <li>
-        <strong>Project 1 – Portfolio Website (HTML & CSS):</strong><br>
-        A responsive portfolio website featuring my background, skills, social icons, and downloadable CV.
+        <strong>Portfolio Website</strong><br />
+        A fully responsive portfolio made using HTML, CSS, and JavaScript. Hosted on GitHub Pages.<br />
+        🔗 <a href="https://ssingh0001.github.io/MyPortfolio" target="_blank">Live Demo</a> |
+        <a href="https://github.com/Ssingh0001/MyPortfolio" target="_blank">Source Code</a>
       </li>
-      <br>
       <li>
-        <strong>Project 3 – Flappy Bird Game (Python):</strong><br>
-        A desktop-based Flappy Bird clone built using Python and the Pygame library. The game simulates gravity, pipe
-        collision, and scoring. It runs locally and showcases my understanding of game loops, object collision, and
-        event handling in Python.<br>
+        <strong>Python Calculator</strong><br />
+        A command-line calculator app using Python for basic arithmetic.<br />
+        🔗 <a href="https://github.com/Ssingh0001/Python-Calculator" target="_blank">Source Code</a>
       </li>
-      <br>
       <li>
-        <strong>Project 3 – Basic Python Calculator:</strong><br>
-        A simple Python calculator performing basic arithmetic operations and demonstrating core logic building.
+        <strong>Flappy Bird Game</strong><br />
+        A Python Pygame-based Flappy Bird clone with scoring and collision detection.<br />
+        🔗 <a href="https://github.com/Ssingh0001/FlappyBird-Python" target="_blank">Source Code</a>
       </li>
     </ul>
   </section>
 
-  <script>
-    function showSection(sectionId) {
-      document.querySelector('.hero').style.display = sectionId === 'home' ? 'flex' : 'none';
-      document.querySelector('.about').classList.toggle('hidden', sectionId !== 'about');
-      document.querySelector('.projects').classList.toggle('hidden', sectionId !== 'projects');
-    }
-  </script>
-
 </body>
-
 </html>
