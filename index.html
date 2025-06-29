@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +9,9 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 </head>
+
 <body>
+
   <nav>
     <div class="logo">SATINDER SINGH</div>
     <ul>
@@ -18,55 +21,72 @@
     </ul>
   </nav>
 
+  <!-- Hero Section -->
   <section class="hero" id="home">
     <div class="hero-text">
-      <h1>Hello, I am Satinder Singh</h1>
+      <h1>Hello, I am <span>Satinder Singh</span></h1>
       <p>Software Engineering Student at GISMA | Future Big Tech Engineer</p>
-      
-      <!-- Social Icons with links -->
-    <div class="social-links">
-  <p>
-    <i class="fab fa-github github-icon"></i>
-    <a href="https://github.com/Ssingh0001" target="_blank">github.com/Ssingh0001</a>
-  </p>
 
-  <p>
-    <i class="fab fa-linkedin-in linkedin-icon"></i>
-    <a href="https://linkedin.com/in/satinder-singh09" target="_blank">linkedin.com/in/satinder-singh09</a>
-  </p>
+      <!-- Contact / Social Links -->
+      <div class="social-links">
+        <p><i class="fab fa-github github-icon"></i> <a href="https://github.com/Ssingh0001"
+            target="_blank">github.com/Ssingh0001</a></p>
+        <p><i class="fab fa-linkedin-in linkedin-icon"></i> <a href="https://linkedin.com/in/satinder-singh09"
+            target="_blank">linkedin.com/in/satinder-singh09</a></p>
+        <p><i class="fas fa-envelope email-icon"></i> <a
+            href="mailto:satindersingh0902@gmail.com">satindersingh0902@gmail.com</a></p>
 
-  <p>
-    <i class="fas fa-envelope email-icon"></i>
-    <a href="mailto:satindersingh0902@gmail.com">satindersingh0902@gmail.com</a>
-  </p>
-    <!-- Download CV Button -->
-  <a href="Satinder_CV.pdf" download class="download-btn">
-    <i class="fas fa-download"></i> Download CV
-  </a>
-</div>
-</div>
+        <!-- Download CV -->
+        <a href="Satinder_CV.pdf" download class="download-btn">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
     </div>
+
     <div class="hero-image">
-      <img src="image.png" alt="Satinder at computer">
+      <img src="c:\Users\satin\OneDrive\Pictures\IMG_20250627_140238.png" alt="Satinder at computer">
     </div>
   </section>
 
+  <!-- About Section -->
   <section class="about hidden" id="about">
     <h2>About Me</h2>
-    <p>I am Satinder Singh, a Software Engineering student at GISMA University of Applied Sciences in Berlin.<br> I have a strong passion for building efficient, modern applications and aim to work at top tech companies like Google, Amazon, or SAP. <br> My technical skill set includes HTML, CSS, Python, and LaTeX. I’m currently learning full-stack development.</p>
+    <p>I am Satinder Singh, a Software Engineering student at GISMA University of Applied Sciences in Berlin. </p>
+    <br>
+    <p>I have a strong passion for building efficient, modern applications and aim to work at top tech companies like
+      Google, Amazon, or SAP.</p>
+    <br>
+    <p>My technical skill set includes:</p>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+      <li>LaTeX</li>
+      <li>Currently learning full-stack development</li>
+
+    </ul>
   </section>
 
+  <!-- Projects Section -->
   <section class="projects hidden" id="projects">
     <h2>Projects</h2>
     <ul>
-      <li>Project 1 – Portfolio Website (HTML & CSS):
-        <br>This project is a responsive personal portfolio website developed using HTML and CSS. It showcases my background, skills, and projects as a Software Engineering student at GISMA University. The site features a clean layout, brand-colored social icons (GitHub, LinkedIn, Email), and a downloadable CV button for quick access. Designed with mobile-first responsiveness in mind, it provides a professional digital presence accessible via both GitHub Pages and a custom domain.
+      <li>
+        <strong>Project 1 – Portfolio Website (HTML & CSS):</strong><br>
+        A responsive portfolio website featuring my background, skills, social icons, and downloadable CV.
       </li>
       <br>
-      <li>Project 2 – Basic Python Calculator:
-        <br>A simple Python-based calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division. It demonstrates my understanding of Python syntax and basic programming concepts.
+      <li>
+        <strong>Project 3 – Flappy Bird Game (Python):</strong><br>
+        A desktop-based Flappy Bird clone built using Python and the Pygame library. The game simulates gravity, pipe
+        collision, and scoring. It runs locally and showcases my understanding of game loops, object collision, and
+        event handling in Python.<br>
       </li>
-
+      <br>
+      <li>
+        <strong>Project 3 – Basic Python Calculator:</strong><br>
+        A simple Python calculator performing basic arithmetic operations and demonstrating core logic building.
+      </li>
     </ul>
   </section>
 
@@ -77,5 +97,7 @@
       document.querySelector('.projects').classList.toggle('hidden', sectionId !== 'projects');
     }
   </script>
+
 </body>
+
 </html>
