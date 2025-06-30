@@ -39,7 +39,8 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-weight: 500;
+  font-weight: 800;
+  letter-spacing: 1px;
   transition: color 0.3s ease;
 }
 
@@ -156,9 +157,12 @@ nav ul li a:hover {
 
 .hero-right img {
   width: 300px;
-  border-radius: 20px;
+  height: 300px; /* maintain square */
+  object-fit: cover;
+  border-radius: 50%; /* make it a circle */
   box-shadow: 0 0 20px rgba(192, 132, 252, 0.4);
 }
+
 
 /* About Section */
 .about {
@@ -236,24 +240,18 @@ nav ul li a:hover {
   color: #c084fc;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
-  .hero {
+  nav ul {
     flex-direction: column;
-    text-align: center;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
   }
 
-  .hero-left {
-    padding: 0;
-  }
-
-  .buttons {
+  nav {
     flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-right img {
-    width: 70%;
-    margin-top: 2rem;
+    align-items: flex-start;
   }
 }
